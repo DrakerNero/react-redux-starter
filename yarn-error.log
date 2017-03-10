@@ -1,0 +1,42 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\hh_lo\.npm-packages\node_modules\yarn\bin\yarn.js add dev webpack path
+
+PATH: 
+  C:\Program Files\Cmder\bin;C:\Program Files\Git\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\share\vim\vim74;C:\Program Files\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Program Files\Cmder\vendor\conemu-maximus5;C:\Program Files\Cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\hh_lo\AppData\Local\Programs\Python\Python35-32;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;E:\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;E:\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;E:\Microsoft SQL Server\120\DTS\Binn\;D:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Python27\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\nodejs\;C:\Users\hh_lo\.npm-packages;C:\Users\hh_lo\AppData\Local\atom\bin;C:\Users\hh_lo\AppData\Roaming\Composer\vendor\bin;C:\Python27\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\hh_lo\AppData\Roaming\npm;C:\Users\hh_lo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Cmder
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  6.5.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.60.173:443
+      at Object.exports._errnoException (util.js:1026:11)
+      at exports._exceptionWithHostPort (util.js:1049:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1081:14)
