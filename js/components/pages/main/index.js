@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class ContentMain extends Component {
   render() {
     return (
-      <div className="content-main">
+      <div className="content-main-page">
         <div className="jumbotron">
           <div className="container">
             <h1 className="display-3">Hello, world!</h1>

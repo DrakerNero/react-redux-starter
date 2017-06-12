@@ -1,17 +1,20 @@
 import React from 'react'
 import { Route, Switch, Link } from 'react-router-dom'
-import MainLayout from '../containers/contentMain'
+import ContentMain from '../containers/pages/main'
+import ContentTodo from '../containers/pages/todo'
+import ContentForm from '../containers/pages/form'
 
-// const componentHome = () => (<h1><Link to="in">Home</Link></h1>)
-const componentHome = () => (<h1><Link to="in">Home</Link></h1>)
-const componentIndex = () => (<h1><Link to="/">Index</Link></h1>)
+const RenderContentMain = () => <ContentMain />
+const RenderContentTodo = () => <ContentTodo />
+const RenderContentForm = () => <ContentForm />
 
 
 const routes = (
   <div>
     <Switch>
-      <Route exact path="/" render={MainLayout} />
-      <Route exact path="/in" render={componentIndex} />
+      <Route exact path="/" render={RenderContentMain} />
+      <Route exact path="/todo" render={RenderContentTodo} />
+      <Route exact path="/form" render={RenderContentForm} />
     </Switch>
   </div>
 )

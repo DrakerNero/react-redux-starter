@@ -11,11 +11,13 @@ export default class MainLayout extends Component {
     return (
       <div className="main-layout">
         <Navbar />
-        {this.props.children}
+        <div className="container-main-layout">
+          {this.props.children}
+        </div>
         <div className="container">
           <hr />
           <footer>
-            <p>&copy; Company 2017</p>
+            <p>&copy; 2017</p>
           </footer>
         </div>
       </div>

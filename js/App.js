@@ -5,7 +5,9 @@ import './style'
 
 const App = ({ history }) => ( // eslint-disable-line react/prop-types
   <ConnectedRouter history={history}>
-    {routes}
+    <div className="root-app">
+      {routes}
+    </div>
   </ConnectedRouter>
 )
 
