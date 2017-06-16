@@ -1,13 +1,12 @@
 import React from 'react'
 import { Route, Switch, Link } from 'react-router-dom'
 import ContentMain from '../containers/pages/main'
-import ContentTodo from '../containers/pages/todo'
+import ContentTodo from '../containers/PageTodoApp'
 import ContentForm from '../containers/pages/form'
 
 const RenderContentMain = () => <ContentMain />
 const RenderContentTodo = () => <ContentTodo />
 const RenderContentForm = () => <ContentForm />
-
 
 const routes = (
   <div>

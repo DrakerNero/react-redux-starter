@@ -1,11 +1,10 @@
-import React, { Component, PropTypes } from 'react'
-import Navbar from './Navbar'
+import React, { Component, PropTypes } from "react";
+import Navbar from "./Navbar";
 
 export default class MainLayout extends Component {
-
-  static propTypes = { // eslint-disable-line
-    children: PropTypes.node,
-  }
+  static propTypes = {
+    children: PropTypes.node
+  };
 
   render() {
     return (
@@ -17,13 +16,10 @@ export default class MainLayout extends Component {
         <div className="container">
           <hr />
           <footer>
-            <p>&copy; 2017</p>
+            <p>© 2017</p>
           </footer>
         </div>
       </div>
-    )
+    );
   }
 }
-
-
-

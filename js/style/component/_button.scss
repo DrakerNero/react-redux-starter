@@ -1,0 +1,25 @@
+.wrap-content-todo .right {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  button {
+    transition: all .15s ease-in-out;
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 30px;
+    background: #74ac0a;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff
+  }
+}
+
+.right {
+  button {
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  button.active {
+    background: #2f4506;
+  }
+}
